@@ -2,16 +2,16 @@
 
 # Device
 export TWRP_BRANCH="shrp-12.1"
-export DT_LINK="https://github.com/Arafattex/S-Vendor-Twrp-Tree-for-mt6768 -b Lancelot"
+export DT_LINK="https://github.com/wbs306/device_xiaomi_xaga -b sunflowerleaf"
 
-export DEVICE="lancelot"
+export DEVICE="xaga"
 export OEM="xiaomi"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="vendorbootimage"
 
 export OUTPUT="Twrp*.zip"
 # Not Recommended to Change
