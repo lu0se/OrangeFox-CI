@@ -2,7 +2,7 @@
 
 # Device
 export TWRP_BRANCH="shrp-12.1"
-export DT_LINK="https://github.com/wbs306/device_xiaomi_xaga -b sunflowerleaf"
+export DT_LINK="https://github.com/lu0se/xaga -b twrp-12.1_5.10.66"
 
 export DEVICE="xaga"
 export OEM="xiaomi"
